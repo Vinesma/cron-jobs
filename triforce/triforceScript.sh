@@ -11,8 +11,8 @@ while read -r line; do
     DATE="$line"
 done < "$filename"
 
-youtube-dl -s -x --download-archive archive.txt --audio-format "$AUDIOFORMAT" --playlist-start "$STARTAT" --dateafter "$DATE" "$PLAYLIST"
+youtube-dl -x --download-archive archive.txt --audio-format "$AUDIOFORMAT" --playlist-start "$STARTAT" --dateafter "$DATE" "$PLAYLIST"
 
-notify-send "triforceScript has ran!"
+notify-send "CRON: triforce has executed!"
 
 date +%Y%m%d > lastDate
