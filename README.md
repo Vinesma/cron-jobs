@@ -12,6 +12,8 @@ Currently set to download triforce episodes but it could be repurposed for basic
 
 ### Battery
 
-* * * * *
+\* * * * *
 
 Used to warn me when my laptop battery is getting low (below 50%).
+
+(Turns out that notify-send isn't reliable because root has no concept of the user environment, I'll leave the code as is until I can find some way around this)
