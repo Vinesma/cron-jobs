@@ -14,4 +14,4 @@ Currently set to download triforce episodes but it could be repurposed for basic
 
 * * * * *
 
-WIP. Will be used to warn me when my laptop battery is low.
+Used to warn me when my laptop battery is getting low (below 50%).
