@@ -7,6 +7,6 @@ while read -r line; do
 	CURRENTPERCENTAGE="$line"
 done < percentage
 
-if [ "$CURRENTPERCENTAGE" -le 50 ]
+if [ "$CURRENTPERCENTAGE" -le 45 ]
 then notify-send "Battery power is getting low, save your work!"
 fi
