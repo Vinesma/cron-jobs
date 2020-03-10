@@ -1,4 +1,5 @@
 #!/bin/bash
+export DISPLAY=:0.0
 youtube_dl_path="/usr/local/bin/youtube-dl"
 date_path="/bin/date"
 notify_send_path="/usr/bin/notify-send"
