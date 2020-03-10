@@ -1,4 +1,5 @@
 #!/bin/bash
+export DISPLAY=:0.0
 upower_path="/usr/bin/upower"
 grep_path="/bin/grep"
 notify_send_path="/usr/bin/notify-send"
