@@ -1,5 +1,7 @@
 #!/bin/bash
-export DISPLAY=:0.0
+export DISPLAY=:0
+export DBUS_SESSION_BUS_ADDRESS='unix:path=/run/user/1000/bus'
+
 home_path="/home/vinesma"
 youtube_dl_path="/usr/bin/youtube-dl"
 date_path="/usr/bin/date"
