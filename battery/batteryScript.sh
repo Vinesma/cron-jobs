@@ -12,5 +12,5 @@ head_path="/usr/bin/head"
 current_percentage=$("$head_path" percentage)
 
 if [ "$current_percentage" -le 50 ]
-then "$notify_send_path" "Battery power is getting low, save your work!"
+then "$notify_send_path" "BATTERY" "Battery power is getting low, save your work!"
 fi
